@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		214D66C91D919A9C00899B43 /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214D66C81D919A9C00899B43 /* ProductsTableViewController.swift */; };
+		21767C6B1D9448710015324A /* CartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21767C6A1D9448710015324A /* CartTableViewController.swift */; };
+		21767C6D1D944CC00015324A /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21767C6C1D944CC00015324A /* Order.swift */; };
+		21767C6F1D944CDD0015324A /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21767C6E1D944CDD0015324A /* Orders.swift */; };
+		218BECF41D92F99B003619E7 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218BECF31D92F99B003619E7 /* Product.swift */; };
 		21ACA7C71D8C4CE900648EF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ACA7C61D8C4CE900648EF3 /* AppDelegate.swift */; };
-		21ACA7C91D8C4CE900648EF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ACA7C81D8C4CE900648EF3 /* ViewController.swift */; };
 		21ACA7CC1D8C4CE900648EF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21ACA7CA1D8C4CE900648EF3 /* Main.storyboard */; };
 		21ACA7CE1D8C4CE900648EF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21ACA7CD1D8C4CE900648EF3 /* Assets.xcassets */; };
 		21ACA7D11D8C4CE900648EF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21ACA7CF1D8C4CE900648EF3 /* LaunchScreen.storyboard */; };
+		21ACA7D91D8C56F000648EF3 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ACA7D81D8C56F000648EF3 /* ProductViewController.swift */; };
+		21ACA7DB1D8C63F100648EF3 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ACA7DA1D8C63F100648EF3 /* ContactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		214D66C81D919A9C00899B43 /* ProductsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
+		21767C6A1D9448710015324A /* CartTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartTableViewController.swift; sourceTree = "<group>"; };
+		21767C6C1D944CC00015324A /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		21767C6E1D944CDD0015324A /* Orders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
+		218BECF31D92F99B003619E7 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		21ACA7C31D8C4CE900648EF3 /* AirJordan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirJordan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21ACA7C61D8C4CE900648EF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		21ACA7C81D8C4CE900648EF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		21ACA7CB1D8C4CE900648EF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21ACA7CD1D8C4CE900648EF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21ACA7D01D8C4CE900648EF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21ACA7D21D8C4CE900648EF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21ACA7D81D8C56F000648EF3 /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		21ACA7DA1D8C63F100648EF3 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +67,17 @@
 			isa = PBXGroup;
 			children = (
 				21ACA7C61D8C4CE900648EF3 /* AppDelegate.swift */,
-				21ACA7C81D8C4CE900648EF3 /* ViewController.swift */,
 				21ACA7CA1D8C4CE900648EF3 /* Main.storyboard */,
 				21ACA7CD1D8C4CE900648EF3 /* Assets.xcassets */,
 				21ACA7CF1D8C4CE900648EF3 /* LaunchScreen.storyboard */,
 				21ACA7D21D8C4CE900648EF3 /* Info.plist */,
+				21ACA7D81D8C56F000648EF3 /* ProductViewController.swift */,
+				21ACA7DA1D8C63F100648EF3 /* ContactViewController.swift */,
+				214D66C81D919A9C00899B43 /* ProductsTableViewController.swift */,
+				218BECF31D92F99B003619E7 /* Product.swift */,
+				21767C6A1D9448710015324A /* CartTableViewController.swift */,
+				21767C6C1D944CC00015324A /* Order.swift */,
+				21767C6E1D944CDD0015324A /* Orders.swift */,
 			);
 			path = AirJordan;
 			sourceTree = "<group>";
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21ACA7C91D8C4CE900648EF3 /* ViewController.swift in Sources */,
+				21ACA7D91D8C56F000648EF3 /* ProductViewController.swift in Sources */,
+				21767C6B1D9448710015324A /* CartTableViewController.swift in Sources */,
+				214D66C91D919A9C00899B43 /* ProductsTableViewController.swift in Sources */,
+				218BECF41D92F99B003619E7 /* Product.swift in Sources */,
 				21ACA7C71D8C4CE900648EF3 /* AppDelegate.swift in Sources */,
+				21ACA7DB1D8C63F100648EF3 /* ContactViewController.swift in Sources */,
+				21767C6F1D944CDD0015324A /* Orders.swift in Sources */,
+				21767C6D1D944CC00015324A /* Order.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +324,7 @@
 				21ACA7D71D8C4CE900648EF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
